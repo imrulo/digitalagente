@@ -1,0 +1,14 @@
+{
+  "name": "digitalagente-landing",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Landing page estática para DigitalAgente.com y Kit Digital.",
+  "scripts": {
+    "build": "tailwindcss -i ./src/tailwind.css -o ./tailwind.css --minify",
+    "dev": "tailwindcss -i ./src/tailwind.css -o ./tailwind.css --watch"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.0",
+    "tailwindcss": "^4.3.0"
+  }
+}
