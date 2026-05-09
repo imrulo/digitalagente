@@ -4,7 +4,7 @@
   "private": true,
   "description": "Landing page estática para DigitalAgente.com y Kit Digital.",
   "scripts": {
-    "build": "tailwindcss -i ./src/tailwind.css -o ./tailwind.css --minify",
+    "build": "tailwindcss -i ./src/tailwind.css -o ./tailwind.css --minify && rm -rf dist && mkdir -p dist && cp index.html styles.css tailwind.css dist/",
     "dev": "tailwindcss -i ./src/tailwind.css -o ./tailwind.css --watch"
   },
   "devDependencies": {
