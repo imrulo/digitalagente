@@ -2,7 +2,7 @@
   "name": "digitalagente-landing",
   "version": "1.0.0",
   "private": true,
-  "description": "Landing page estática para DigitalAgente.com y Kit Digital.",
+  "description": "Landing page estática para vender el dominio premium DigitalAgente.com.",
   "scripts": {
     "build": "tailwindcss -i ./src/tailwind.css -o ./tailwind.css --minify && rm -rf dist && mkdir -p dist && cp index.html styles.css tailwind.css dist/",
     "dev": "tailwindcss -i ./src/tailwind.css -o ./tailwind.css --watch"
